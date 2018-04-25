@@ -1,0 +1,37 @@
+a.mobile {  
+    display: block;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    padding: 7px;
+    border-bottom: 1px #fff;
+    
+}
+
+a.mobile:active {
+    background-color: #4A4A4A;
+    
+}
+
+@media only screen and (max-width: 500px){
+    .sidebar {
+        width: 100%;
+       display: none;
+    }
+    .content {
+        margin-left: 0px;
+    }
+    #logocenter{
+        display: none;
+    }
+}
+  
+@media only screen and (min-width: 500px) {
+    a.mobile {
+        /*width: 100%;*/
+        display: none;
+    }
+    .sidebar {
+        height: 100%;
+    }
+}

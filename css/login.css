@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*************************************Background********************************/
+.login-img3-body{
+
+  background: url('../img/bg-1.jpg') no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+
+  background-size: cover;
+
+}
+
+/*************************************Modal for User ID and Password ********************************/
+.wrap {
+    width: 300px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 150px;
+    background-color: #BDC3C7;
+    border-radius: 10px;
+    border: 1px solid #D2D7D3;
+}
+
+.wrap input {
+    width: 270px;
+    height: 30px;
+    margin: 5%;
+    
+    border: 1px solid silver;
+    padding: 1;
+}
+
+.wrap .btn-login {
+    width: 270px;
+    height: 35px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #3498db;
+}
+
+p {
+    text-align: center;
+    color: #22313F;
+}
+
+div#loginlogo {
+    margin-bottom: 5%;
+    width: auto;
+    background-color: azure;
+        
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/*************************************Modal for User ID and Password ********************************/

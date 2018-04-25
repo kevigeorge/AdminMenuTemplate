@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato',sans-serif;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+a#header{
+    color: #ECF0F1;
+    font-weight: 100;
+    text-decoration: none;
+}
+i#toggle{
+    font-size: 1.2em;
+    color: #ECF0F1;
+    
+}
+
+i{
+    margin-right: 5px;
+}
+
+i#submenu{
+    float: right;
+}
+/***************** Different Types of colors*/
+
+.creamwhite {
+    color: #ECF0F1;
+}
+
+.lite{
+    color: #00a0df 
+}
+.headerdark {
+    color: #22313F;
+}
+
+/*****************End Different Types of colors*/
+
+div#header {
+    width: 100%;
+    height: 50px;
+    background-color: #22313F;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.logo a {
+    font-size: 1.2em;
+}
+
+.logo a span {
+    font-weight: 300;
+}
+
+#logocenter {
+     text-align: center;
+     margin-top:  1px;
+     margin-left: 20%;
+     width: auto;
+     background-color: #22313F;
+}
+
+#logocenter a{
+    font-size: 1.5em;
+}
+
+#logocenter a span {
+    font-weight: 400;    
+}
+
+#logoright{
+    margin-right: 2%;
+    float: right;
+    width: 150px;
+}
+
+#logo,#logocenter,#logoright{
+
+    display: inline-block;
+}
+
+
+/***********************Start Menu Drop down*********************/
+
+.dropdownmenu {
+    margin-top: 6px;
+    margin-right: 20%;
+    background-color: #22313F;
+
+   
+    
+}
+
+ul#dropdown li {
+   
+    list-style: none;
+     position: relative;
+     
+}
+
+ul#dropdown li a {
+    
+    width: 140px;
+    color: #ccc;
+    display: block;
+    padding: 10px;
+    margin-right: 50%;
+    font-size: 0.8em;
+    border: 1px solid #0A0A0A;
+    transition: 0.2s;
+    background-color: #22313F;
+    
+    
+}
+
+ul#dropdown li a:hover{
+    background-color: #22313F;
+    color: #fff;
+    /*padding-left: 30px;*/
+}
+
+.drop-main-menu-item:active > ul {
+    display: block;
+}
+
+
+.drop-sub-menu {
+    display: none;
+    position: absolute;
+    z-index:2;     
+    width: 150px;
+}
+
+#noti-count {
+  position:absolute;
+  top:-4px;
+  right: -90px;
+  background-color:#00a0df;
+  color:#fff;
+  padding:5px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  width:25px;
+  height:25px;
+  text-align:center;
+}
+/***********************End Menu Drop down*********************/
+
+/***********************Start Menu Sidebar*********************/
+
+div#container {
+    width: 100%;
+    /*height: 1200px;*/
+    height: 100%;
+    min-height: 100% ;
+    margin: 0 auto;
+    background-color: #F2F1EF;
+    display: inline-block;
+}
+
+.sidebar {
+    width: 200px;
+    /*height: 500px;*/
+    height: 100%;
+    min-height: 100% ;
+    background-color: #34495E;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+
+.content {        
+    margin: 1px 10px 10px 10px;
+    width: auto;
+    /*height: 500px;*/
+    background-color: white;
+    padding-left: 10px;
+    float: left;
+    border: 1px solid #ABB7B7;
+    overflow: scroll hidden;
+    display: inline-block;
+    height: 100%;
+    min-height: 100% ;
+
+}
+
+ul#nav{
+    
+}
+
+ul#nav li {
+    list-style: none;
+}
+
+ul#nav li a {
+    color: #ccc;
+    display: block;
+    padding: 10px;
+    font-size: 1em;
+    border-bottom: 1px solid #ECF0F1;;
+    transition: 0.2s;
+}
+
+ul#nav li a:hover{
+    background-color: #2C3E50;
+    color: #fff;
+    /*padding-left: 30px;*/
+}
+
+
+.main-menu-item {
+    position: relative;
+    cursor: pointer;
+}
+
+.main-menu-item:active > ul {
+    display: block;
+}
+
+
+.sub-menu {
+    display: none;
+    position: relative;
+    left: 0px;
+    width: 300px;
+}
+/***********************End Menu Sidebar*********************/
+/******Creating a footer************/
+div#footer {
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+    clear:both;
+    text-align: center;
+    font-weight: 100;
+}
+/****************Menu******************/
